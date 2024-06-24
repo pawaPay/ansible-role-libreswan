@@ -2,17 +2,18 @@
 dependencies: []
 galaxy_info:
   role_name: libreswan
+  namespace: oukooveu
   author: oukooveu
   description: libreswan server setup
   license: Apache 2.0
-  min_ansible_version: 2.4
+  min_ansible_version: '9.1.0'
   platforms:
     - name: EL
       versions:
-        - 7
-    - name: Ubuntu
+        - '9'
+    - name: Debian
       versions:
-        - bionic
+        - bookworm  # 12
   galaxy_tags:
     - networking
     - vpn
